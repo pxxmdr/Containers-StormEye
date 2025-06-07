@@ -192,6 +192,19 @@ http://<IP_DA_VM>:8080/catastrofes
 
 ---
 
+## ♨️ Repositório do projeto JAVA, informações e requisitos completos dentro do README.md.
+```
+https://github.com/ThamiresRC/StormEye
+
+```
+---
+
+## 📸 Evidência
+
+(https://youtu.be/WNzFNy_GQUo)
+
+---
+
 ## 📦 Requisitos Entregues
 
 - [x] Código-fonte da aplicação
@@ -200,8 +213,4 @@ http://<IP_DA_VM>:8080/catastrofes
 - [x] Scripts para subir containers e rede
 - [x] Deploy funcional na nuvem Azure
 
----
 
-## 📸 Evidência
-
-(https://youtu.be/WNzFNy_GQUo)
