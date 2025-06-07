@@ -158,7 +158,19 @@ docker run -d \
   -v stormeye_db_data:/var/lib/mysql \
   stormeye-mysql
 ```
+---
+### 9. Execução do container do PHPMyAdmin
 
+```bash
+docker run -d \
+  --name stormeye-phpmyadmin \
+  --network stormeye_net \
+  -p 8081:80 \
+  -e PMA_HOST=stormeye_mysql \
+  -e PMA_USER=stormuser \
+  -e PMA_PASSWORD=stormpass \
+  phpmyadmin
+```
 ---
 
 ## ✅ Verificações
